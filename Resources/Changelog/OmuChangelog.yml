@@ -2434,3 +2434,11 @@ Entries:
       message: Recipes for lazy tiramisu and fancy tiramisu are now available.
   id: 305
   time: '2026-03-07T18:28:46.0000000+00:00'
+- author: TheSecondLord
+  changes:
+    - type: Tweak
+      message: >-
+        Homunculi will now bond with their parent and follow them around, as
+        well as retaliating against attackers.
+  id: 306
+  time: '2026-03-07T18:30:01.0000000+00:00'
