@@ -202,7 +202,7 @@
     - id: XenomorphsInfestation # WD EDIT
     #- id: GreyTideAntagMidround # Goobstation - New Midrounds -- Omu Change Removed
     - id: SingulothKnightsMidround # Goobstation - New Midrounds
-    #- id: DarkLordMidround # Goobstation - New Midrounds -- Omu Change Removed
+    #- id: DarkLordMidround # Goobstation - New Midrounds
     - id: MimeAssassinMidround # Goobstation - New Midrounds
     #- id: DarkPriestMidround # Goobstation - New Midrounds -- Omu Change Removed
     - id: VoxRaidersMidround # Goobstation - New Midrounds
