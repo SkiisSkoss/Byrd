@@ -2684,3 +2684,11 @@ Entries:
         the round-end summary!
   id: 341
   time: '2026-03-21T20:08:06.0000000+00:00'
+- author: CliveOcelot
+  changes:
+    - type: Tweak
+      message: >-
+        Changed silicon rule 8 to clarify that Prisoners and Syndicate icons are
+        not crew.
+  id: 342
+  time: '2026-03-21T20:28:23.0000000+00:00'
