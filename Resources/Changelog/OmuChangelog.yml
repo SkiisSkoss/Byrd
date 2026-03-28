@@ -2909,3 +2909,9 @@ Entries:
       message: Added (disciplinary) belts! Check the sergeant loadout :)
   id: 372
   time: '2026-03-27T22:40:32.0000000+00:00'
+- author: Richard Blonski
+  changes:
+    - type: Add
+      message: 'Added: A new default module for medical cyborgs - the Virology Module!'
+  id: 373
+  time: '2026-03-28T06:14:45.0000000+00:00'
