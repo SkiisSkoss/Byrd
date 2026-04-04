@@ -3107,3 +3107,9 @@ Entries:
       message: Changed "breath-in-a-fart" emote name to "reverse fart"
   id: 398
   time: '2026-04-04T23:11:14.0000000+00:00'
+- author: pinktanuki
+  changes:
+    - type: Add
+      message: Redshirt Trait
+  id: 399
+  time: '2026-04-04T23:14:19.0000000+00:00'
