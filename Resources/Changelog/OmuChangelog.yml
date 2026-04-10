@@ -3311,3 +3311,15 @@ Entries:
         emotes.
   id: 422
   time: '2026-04-10T12:12:33.0000000+00:00'
+- author: Mariki
+  changes:
+    - type: Add
+      message: NTR selector case, can choose between a fancy cane and disciplinary belt
+    - type: Tweak
+      message: Disciplinary Belts can now snap! press Z with them inhand :)
+    - type: Tweak
+      message: Admeme belts now have a 1 damage spawnable version.
+    - type: Tweak
+      message: Changed the sergeant's disciplinary belt stats a bit.
+  id: 423
+  time: '2026-04-10T12:42:50.0000000+00:00'
