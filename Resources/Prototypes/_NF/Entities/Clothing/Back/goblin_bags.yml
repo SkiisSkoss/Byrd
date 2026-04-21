@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: entity
   parent: [ ClothingBackpack ]
   id: GoblinMadeClothingBackpackTrashBlue
@@ -26,7 +30,7 @@
     - Recyclable
   - type: Construction
     graph: GoblinMadeClothingBackpackTrashBlue
-    node: GoblinMadeClothingBackpackTrashBlue
+    node: goblin_tool
 
 - type: entity
   parent: [ ClothingBackpackDuffel ]
@@ -56,4 +60,4 @@
         - GoblinMade
   - type: Construction
     graph: GoblinMadeClothingBackpackDuffelTrashBlue
-    node: GoblinMadeClothingBackpackDuffelTrashBlue
+    node: goblin_tool
