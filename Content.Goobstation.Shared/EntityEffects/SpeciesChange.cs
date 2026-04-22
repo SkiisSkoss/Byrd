@@ -20,6 +20,7 @@ public sealed partial class SpeciesChange : EventEntityEffect<SpeciesChange>
 {
     [DataField(required: true)]
     public ProtoId<SpeciesPrototype> NewSpecies;
+    [DataField] public List<ProtoId<SpeciesPrototype>>? AllowedSpecies;
 
     public SpeciesChange(ProtoId<SpeciesPrototype> newspecies)
     {
@@ -31,6 +32,21 @@ public sealed partial class SpeciesChange : EventEntityEffect<SpeciesChange>
 
     public override void Effect(EntityEffectBaseArgs args)
     {
+        var humanoidQuery = args.EntityManager.GetEntityQuery<HumanoidAppearanceComponent>();
+
+        if (!humanoidQuery.TryComp(args.TargetEntity, out var targetHumanoid))
+            return;
+
+        if (AllowedSpecies != null)
+        {
+            var targetSpecies = targetHumanoid.Species;
+
+            if (!AllowedSpecies.Contains(targetSpecies))
+            {
+                return;
+            }
+        }
+
         var ev = new SpeciesChange(NewSpecies);
         args.EntityManager.EventBus.RaiseLocalEvent(args.TargetEntity, ev);
     }
